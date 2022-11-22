@@ -2732,3 +2732,9 @@ button.alt:hover,
   .whatsapp-icon {
 	margin-top:13px;
   }
+
+/* Donaciones */
+.donaciones {
+	width: 200px;
+	height: 200px;
+}
