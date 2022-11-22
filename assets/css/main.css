@@ -333,8 +333,7 @@ header {
 	margin-bottom: 1em;
 }
 
-header h1,
-header h2,
+header h1 header h2,
 header h3,
 header h4,
 header h5,
@@ -346,6 +345,16 @@ header p {
 	display: block;
 	margin: 0;
 	padding: 0.25em 0 0.5em 0;
+}
+
+.shadow {
+	text-shadow: 2.5px 1.5px black;
+}
+
+
+header img {
+	height: 40%;
+	width: 40%;
 }
 
 footer {
@@ -2673,6 +2682,11 @@ button.alt:hover,
 
 	#header>header {
 		padding: 0 1em 0 1em;
+	}
+
+	header img {
+		height: 80%;
+		width: 80%;
 	}
 
 	/* Main Sections */
